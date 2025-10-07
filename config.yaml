@@ -1,0 +1,10 @@
+raw_data_folder: "sample_data/raw_cms"
+reference_file_path: "sample_data/reference/SkillAccountMapping.xlsx"
+forecast_csv_folder: "data/outputs/forecast_sheets"
+archive_base_dir: "data/archive"
+reference_key_column: "SplitSkill"
+skill_group_column: "Account"
+raw_data_key_column: "Split/Skill"
+dedup_keys: ["Date", "skill", "Time"]
+enable_excel_macros: false
+excel_macros: []
